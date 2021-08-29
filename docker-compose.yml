@@ -8,3 +8,19 @@ services:
     build: 
       context: '.'
       dockerfile: Dockerfile
+  test2:
+    container_name: test
+    image: 'test'
+    ports:
+    - '5000:5000'
+    build: 
+      context: '.'
+      dockerfile: Dockerfile
+  test3:
+    container_name: test
+    image: 'test'
+    ports:
+    - '5000:5000'
+    build: 
+      context: '.'
+      dockerfile: Dockerfile
