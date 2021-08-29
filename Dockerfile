@@ -1,5 +1,5 @@
 FROM frolvlad/alpine-glibc
-ENV email=chasing0806@gmail.com
+ENV email=aisuyi065@gmail.com
 
 # Add http server to serve the test.log
 RUN apk add --no-cache --update python3 py3-pip bash
